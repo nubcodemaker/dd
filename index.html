@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spoty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container" id="spotify_theme">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="row general-content">
+                        <div class="col-xl-3 col-12 left-bg">
+                            <div class="left-container">
+                                <div class="col-12 mb-5" id="logo">
+                                    <a href="#">
+                                        <img src="images/logo.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="dropdown left_menu">
+                                    <span class="menu_title left_size_title">Menu</span>
+                                    <ul class="p-0">
+                                        <li class="link_item active">
+                                            <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                            <a href="#">Expolere</a>
+                                        </li>
+                                        <li class="link_item">
+                                            <i class="bi bi-volume-down-fill"></i>
+                                            <a href="#">Genres</a>
+                                        </li>
+                                        <li class="link_item">
+                                            <i class="bi bi-vinyl-fill"></i>
+                                            <a href="#">Albums</a>
+                                        </li>
+                                        <li class="link_item">
+                                            <i class="bi bi-mic-fill"></i>
+                                            <a href="#">Artist</a>
+                                        </li>    
+                                        <li class="link_item">
+                                            <i class="bi bi-boombox-fill"></i>
+                                            <a href="#">Radio</a>
+                                        </li>    
+                                    </ul>
+                                </div>
+                                <div class="dropdown left_menu">
+                                    <span class="library_title left_size_title">Library</span>
+                                    <ul class="p-0">
+                                        <li class="link_item">
+                                            <i class="bi bi-arrow-counterclockwise"></i>
+                                            <a href="#">Recent</a>
+                                        </li>
+                                        <li class="link_item">
+                                            <i class="bi bi-file-richtext-fill"></i>
+                                            <a href="#">Albums</a>
+                                        </li>
+                                        <li class="link_item">
+                                            <i class="bi bi-heart-fill"></i>
+                                            <a href="#">Favourites</a>
+                                        </li>    
+                                        <li class="link_item">
+                                            <i class="bi bi-boombox-fill"></i>
+                                            <a href="#">Local</a>
+                                        </li>    
+                                    </ul>
+                                </div>
+                                <div class="dropdown left_menu">
+                                    <span class="playlist_title left_size_title">Playlist</span>
+                                    <ul class="p-0">
+                                        <li class="link_item">
+                                            <i class="bi bi-plus-square-fill"></i>
+                                            <a href="#">Create New</a>
+                                        </li>
+                                        <li class="link_item">
+                                            <i class="bi bi-play-circle-fill"></i>
+                                            <a href="#">Design Flow</a>
+                                        </li>
+                                        <li class="link_item">
+                                            <i class="bi bi-play-circle-fill"></i>
+                                            <a href="#">Best of 2020</a>
+                                        </li>
+                                        <li class="link_item">
+                                            <i class="bi bi-play-circle-fill"></i>
+                                            <a  href="#">Nigeria Jam</a>
+                                        </li>      
+                                    </ul>
+                                </div>
+                                <div class="google_home_pad">
+                                    <div class="col-12 top_homepad">
+                                        <img src="images/50x50.jpg" alt="">   
+                                        <span>Google Homepad</span>
+                                    </div>
+                                    <div class="col-12 bottom_homepad">
+                                        <i class="bi bi-rainbow"></i>
+                                        <span>Play on Device</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-9 theme-right">
+                            <div class="row">
+                                <div class="col-12" id="header">
+                                    <div class="row">
+                                        <div class="col-4 col-xl-4 d-flex align-items-center">
+                                            <div class="col-12 main-menu" id="header">
+                                                <ul class="col-12 music-menu p-0">
+                                                    <li class="menu-child active">
+                                                        <a href="#">Music</a>
+                                                    </li>
+                                                    <li class="menu-child">
+                                                        <a href="#">Podcast</a>
+                                                    </li>
+                                                    <li class="menu-child">
+                                                        <a href="#">Lıve</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-xl-4 d-flex align-items-center">
+                                            <div class="row w-100">
+                                                <div class="col-12 formSearch position-relative">
+                                                    <div class="search-content">
+                                                        <input type="text" placeholder="Type here to search">
+                                                        <button>
+                                                            <i class="bi bi-search"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-xl-4 d-flex align-items-center justify-content-end header-right-settings">
+                                            <div class="row">
+                                                <div class="col d-flex align-items-center justify-content-center">
+                                                    <div class="user-notification position-relative">
+                                                        <i class="bi bi-bell-fill"></i>
+                                                        <span class="user-alert-count">4</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col d-flex align-items-center justify-content-center">
+                                                    <div class="user-settings">
+                                                        <i class="bi bi-gear-fill"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="user-profile">
+                                                        <div class="user-profile-photo">
+                                                            <img src="images/yunus.jpeg" alt="">
+                                                        </div>
+                                                        <div class="user-name">
+                                                            <span>Yunus Emre</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 section">
+                                    <span class="trend-title">Trending New Hits</span>
+                                    <span class="big-title">The Havanna</span>
+                                    <div class="sub-details">
+                                        <span class="sub-name">Camila Cabello</span>
+                                        <span class="sub-plays-count">63Million Plays</span>
+                                    </div>
+                                    <div class="col-12 button-play-list">
+                                        <button>Listen Now</button>
+                                        <div class="favorite-music">
+                                            <i class="bi bi-heart-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="col-12" id="footer">
+                                    <div class="row">
+                                        <div class="col-12 col-xl-7">
+                                            <div class="row">
+                                                <div class="col-12 top-artist mb-2">
+                                                    <div class="content-artist">
+                                                        <div class="col-12 title">
+                                                            <span>Top Artist</span>
+                                                            <a href="#">See All</a>
+                                                        </div>
+                                                        <div class="col-12 musicians">
+                                                            <div class="row">
+                                                                <div class="col-6 col-xl-2">
+                                                                    <div class="musicians-item">
+                                                                        <img src="images/travisbin.jpg" alt="">
+                                                                        <span>Travis</span>
+                                                                        <div class="total-plays-12">
+                                                                            44M Plays
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6 col-xl-2">
+                                                                    <div class="musicians-item">
+                                                                        <img src="images/billiebin.jpg" alt="">
+                                                                        <span>Billie</span>
+                                                                        <div class="total-plays-12">
+                                                                            44M Plays
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6 col-xl-2">
+                                                                    <div class="musicians-item">
+                                                                        <img src="images/kid.jpg" alt="">
+                                                                        <span>Kid</span>
+                                                                        <div class="total-plays-12">
+                                                                            44M Plays
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6 col-xl-2">
+                                                                    <div class="musicians-item">
+                                                                        <img src="images/kanyewstbin.webp" alt="">
+                                                                        <span>Kanye</span>
+                                                                        <div class="total-plays-12">
+                                                                            44M Plays
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6 col-xl-2">
+                                                                    <div class="musicians-item">
+                                                                        <img src="images/nickibin.jpg" alt="">
+                                                                        <span>Nicki</span>
+                                                                        <div class="total-plays-12">
+                                                                            44M Plays
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6 col-xl-2">
+                                                                    <div class="musicians-item">
+                                                                        <img src="images/starboybin.jpg" alt="">
+                                                                        <span>Starboy</span>
+                                                                        <div class="total-plays-12">
+                                                                            44M Plays
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 genres-columns mt-1">
+                                                    <div class="row margin-resize">
+                                                        <div class="col-12 col-xl-4">
+                                                            <div class="content">
+                                                                <div class="col-12 title">
+                                                                    <span>Top Artist</span>
+                                                                    <a href="#">See All</a>
+                                                                </div>
+                                                                <div class="col-12 music-style">
+                                                                    <ul>
+                                                                        <li style="background-color: hsl(210deg 17% 95%);">Dance</li>
+                                                                        <li style="background-color: hsl(10deg 20% 55%);">Sport</li>
+                                                                        <li style="background-color: hsl(240deg 9% 78%);">Fitness</li>
+                                                                        <li style="background-color: hsl(185deg 51% 59%);">Job</li>
+                                                                        <li style="background-color: hsl(113deg 89% 58%);">Slow</li>
+                                                                        <li style="background-color: hsl(240deg 100% 77%);">Fast</li>
+                                                                        <li style="background-color: hsl(172deg 78% 60%);">Blues</li>
+                                                                        <li style="background-color: hsl(50deg 6% 82%);">Qiuk</li>
+                                                                        <li style="background-color: hsl(25deg 78% 60%);">Metal</li>
+                                                                        <li style="background-color: hsl(274deg 68% 71%);">Jazz</li>
+                                                                        <li style="background-color: hsl(177deg 78% 60%);">Rap</li>
+                                                                        <li style="background-color: hsl(50deg 78% 60%);">Electro</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-xl-8">
+                                                            <div class="row">
+                                                                <div class="content">
+                                                                    <div class="col-12 title">
+                                                                        <span>Top Artist</span>
+                                                                        <a href="#">See All</a>
+                                                                    </div>
+                                                                    <div class="col-12 top-charts">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <div class="list-number">01</div>
+                                                                                <img src="images/havannabin.png" alt="">
+                                                                                <div class="top-charts-name">
+                                                                                    <span>Havana</span>
+                                                                                    <p>Camila Kolo</p>
+                                                                                </div>
+                                                                                <div class="play-right">
+                                                                                    <div class="time-play">
+                                                                                        <span>3:45</span>
+                                                                                    </div>
+                                                                                    <i class="bi bi-play-fill"></i>
+                                                                                    <i class="bi bi-plus-square-fill"></i>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="list-number">02</div>
+                                                                                <img src="images/kanyewstbin.webp" alt="">
+                                                                                <div class="top-charts-name">
+                                                                                    <span>Jesus is King</span>
+                                                                                    <p>Kanye West</p>
+                                                                                </div>
+                                                                                <div class="play-right">
+                                                                                    <div class="time-play">
+                                                                                        <span>3:45</span>
+                                                                                    </div>
+                                                                                    <i class="bi bi-play-fill"></i>
+                                                                                    <i class="bi bi-plus-square-fill"></i>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="list-number">03</div>
+                                                                                <img src="images/closer.jpg" alt="">
+                                                                                <div class="top-charts-name">
+                                                                                    <span>Closer</span>
+                                                                                    <p>The Chainsmokers</p>
+                                                                                </div>
+                                                                                <div class="play-right">
+                                                                                    <div class="time-play">
+                                                                                        <span>3:45</span>
+                                                                                    </div>
+                                                                                    <i class="bi bi-play-fill"></i>
+                                                                                    <i class="bi bi-plus-square-fill"></i>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="list-number">04</div>
+                                                                                <img src="images/majorbin.jpg" alt="">
+                                                                                <div class="top-charts-name">
+                                                                                    <span>Learn on</span>
+                                                                                    <p>Major Lazer ft DJ Snakes</p>
+                                                                                </div>
+                                                                                <div class="play-right">
+                                                                                    <div class="time-play">
+                                                                                        <span>3:45</span>
+                                                                                    </div>
+                                                                                    <i class="bi bi-play-fill"></i>
+                                                                                    <i class="bi bi-plus-square-fill"></i>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-xl-5 phone-style">
+                                            <div class="content">
+                                                <div class="phone-header">
+                                                    <span>Player</span>
+                                                    <i class="bi bi-file-earmark-music-fill"></i>
+                                                </div>
+                                                <div class="music-image">
+                                                    <img src="images/havanna.png" alt="">
+                                                    <span class="sec-1">Butterfly Effect</span>
+                                                    <p class="sec-2">Travis Scott</p>
+                                                    <p class="sec-3">Bets of 2020</p>
+                                                </div>
+                                                <div class="music-time">
+                                                    <span>2:45</span>
+                                                    <div class="play-line">
+                                                        <div class="gray-line"></div>
+                                                        <div class="dots-line"></div>
+                                                        <div class="white-line"></div>
+                                                    </div>
+                                                    <span>1:05</span>
+                                                </div>
+                                                <div class="phone-buttons">
+                                                    <div class="content">
+                                                        <i class="bi bi-arrow-repeat"></i>
+                                                        <i class="bi bi-skip-start"></i>
+                                                        <i class="bi bi-play-circle-fill white-button"></i>
+                                                        <i class="bi bi-skip-end"></i>
+                                                        <i class="bi bi-shuffle"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="lyrics">
+                                                    <i class="bi bi-chevron-up"></i>
+                                                    Lyrics
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
